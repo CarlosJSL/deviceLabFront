@@ -66,6 +66,7 @@ export class ProfileComponent implements OnInit {
    }
 
   ngOnInit() {
+    $(".button-collapse").sideNav();
     $("#menu").sideNav();
     if(!tokenNotExpired()){
 
@@ -118,3 +119,4 @@ export class ProfileComponent implements OnInit {
 
   }
 }
+
